@@ -16,7 +16,6 @@ ul
 a
 {
     text-decoration: none;
-    color: white;
 }
 .contain
 {
@@ -33,14 +32,11 @@ header
     align-items: center;
 }
 
-.header-li
+.a-header
 {
     color: rgb(93, 100, 107);
 }
-.header-li:not(:last-child)
-{
-    margin-right: 5px;
-}
+
 .header-ul
 {
     flex: 0.6;
@@ -174,4 +170,12 @@ footer
 .footer-box
 {
     display: flex;
+}
+.fab 
+{
+    color: white;
+}
+.a-footer
+{
+    color: white;
 }
