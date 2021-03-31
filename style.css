@@ -29,14 +29,10 @@ header
 {
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 120px;
     align-items: center;
 }
-.header-logo
-{
-    width: 100px;
-    height: auto;
-}
+
 .header-li
 {
     color: rgb(93, 100, 107);
@@ -108,13 +104,10 @@ form
     flex-direction: column;
     margin:  70px  0;
 }
-.form-box
-{
-    width: 40%;
-}
 .form-text
 {
     margin-bottom: 30px;
+    padding: 0 5px;
     text-align: center;
 }
 input
@@ -173,6 +166,7 @@ footer
     margin-right: 50px;
     display: flex;
 }
+
 .footer-li2:not(:last-child)
 {
     margin-right: 20px;

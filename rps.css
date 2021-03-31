@@ -1,4 +1,4 @@
-@media (max-width:768px)
+@media (max-width:767px)
 {
 
     .contain
@@ -12,12 +12,9 @@
         flex-direction: column;
         justify-content: space-evenly;
         text-align: center;
-        height: 80px;
+        height: 100px;
     }
-    .header-logo
-    {
-        width: 200px;
-    }
+    
     .header-ul
     {
         flex: unset;
@@ -64,7 +61,7 @@
     }
     .main2-img:nth-child(1)
     {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .form-text
     {
@@ -88,10 +85,7 @@
     .form-text
     {
         font-size: 22px;
-    }
-    .form-box
-    {
-        width: 80%;
+        margin-bottom: 20px;
     }
     footer 
     {
