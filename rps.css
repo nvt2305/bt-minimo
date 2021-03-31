@@ -8,18 +8,20 @@
     }
     header
     {
-        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
         text-align: center;
-        height: 100px;
+        justify-content: space-evenly;
+        height: 60px;
     }
-    
     .header-ul
     {
         flex: unset;
-        font-size: 14px;
+        font-size: 12px;
         width: 100%;
+    }
+    .header-logo
+    {
+        width: 100px;
     }
     .main
     {
