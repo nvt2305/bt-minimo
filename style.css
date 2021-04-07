@@ -177,6 +177,9 @@ footer
 .fab 
 {
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .a-footer
 {
